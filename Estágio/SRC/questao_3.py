@@ -1,10 +1,4 @@
 import json
-from datetime import datetime
-
-timestamp_atual = datetime.now()
-
-nome_mes = timestamp_atual.strftime("%B")
-
 
 def calcular_faturamento(arquivo):
 
